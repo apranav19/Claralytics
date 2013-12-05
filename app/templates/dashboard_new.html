@@ -33,7 +33,7 @@
 	                  pieSliceTextStyle:{fontSize:'20'},
 	                  'pieStartAngle':'160'
 	        },
-			chartArea:{left:40,top:20,width:"100%",height:"100%"}
+			chartArea:{left:40,top:40, bottom:40, width:"100%",height:"100%"}
 	    };
 
       	var pie_data = new google.visualization.DataTable();
@@ -311,7 +311,7 @@
 				  scaleControl:false,
 				   panControl: false,
 				   width:450,
-				   height:400,
+				   height:200,
 				   zoomControl:true,
 				   zoomControlOptions: {
 					   style: google.maps.ZoomControlStyle.DEFAULT},
@@ -421,7 +421,7 @@
 				<div id="load_device_data" data-device="{{controller.fetch_device_type()}}" style="display:none"></div>	
 				<div class="row clearfix">
 					<div class="col-md-12">
-						<div id = "pie" style="height:400;width:400">	
+						<div id = "pie">	
 						</div>
 					</div>
 				</div>

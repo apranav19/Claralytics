@@ -203,6 +203,10 @@ body > .main-wrapper { height: auto; min-height: 100%; }
 /* GEO MAP STYLING */
 #Geomap{
   width: 700px; 
-  min-height: 400px;
+  min-height: 230px;
   margin: 2% auto 2% auto;
+}
+
+#pie{
+  min-height: 260px;
 }
