@@ -11,3 +11,7 @@ ClaraLytics helps you discover data for various web metrics such as:
 * Content popularity
 * Geographical audience
 * Devices used to access your website
+
+Here's a screenshot of the dashboard
+
+![Claralytics](https://lh4.googleusercontent.com/TZm1lHqcp9JsxT-hnaeL2F8ntXd2sQi4EZjXsYHmxkoyInPUi7TO-bP2bRi1YkxHoBli=w1275-h553)
