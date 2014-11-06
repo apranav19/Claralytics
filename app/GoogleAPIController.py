@@ -162,14 +162,16 @@ class GoogleAPIController(object):
 		return json.dumps(geo_network, sort_keys=True)
 
 	def query_google_plus_actions(self):
-		start_date = date(self.current_date.year, self.current_date.month, 1)		
-		end_date = self.current_date
+		'''
+			start_date = date(self.current_date.year, self.current_date.month, 1)		
+			end_date = self.current_date
 
-		result = self.service.data().ga().get(
-			ids='ga:' + self.user.get_primary_profile_id(),
-			start_date=start_date.isoformat(),
-			end_date=end_date.isoformat(),
-			metrics='ga:socialInteractions'
-		).execute()
+			result = self.service.data().ga().get(
+				ids='ga:' + self.user.get_primary_profile_id(),
+				start_date=start_date.isoformat(),
+				end_date=end_date.isoformat(),
+				metrics='ga:socialInteractions'
+			).execute()
 
+		'''
 		return 1 
